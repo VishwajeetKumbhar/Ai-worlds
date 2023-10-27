@@ -1,0 +1,48 @@
+.lead {
+    font-family: sans-serif;
+}
+
+.tools {
+    position: relative;
+}
+
+.png img {
+    position: absolute;
+}
+
+#images {
+    top: 5vh;
+    right: 68vw;
+    width: 10vw;
+    animation: mymove 3s ease-in infinite alternate;
+}
+#images1 {
+    top: 5vh;
+    left: 68vw;
+    width: 10vw;
+    animation: mymove 3s ease-in infinite alternate;
+}#images2 {
+    top: 5vh;
+    left: 68vw;
+    width: 10vw;
+    animation: mymoves 3s ease-in infinite alternate;
+}
+
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 260px;
+    }
+}@keyframes mymoves {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
