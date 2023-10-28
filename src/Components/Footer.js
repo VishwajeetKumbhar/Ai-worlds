@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Footer = () => {
-    return (
-        <>
-            <div className="footer">
+  return (
+    <>
+      <div className="footer">
         <div className="container footer_container d-flex justify-content-around flex-wrap ">
           <div className="first mt-5">
             <h4>Vishwajeet Kumbhar</h4>
-            <p>@ 2022  All Rights reserved</p>
+            <p>@ 2023  All Rights reserved</p>
             <p className='d-flex' >
               <i className='fa-brands fa-instagram'></i>
               <i className='fa-brands fa-facebook mx-3'></i>
@@ -25,8 +25,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        </>
-    )
+    </>
+  )
 }
 
 export default Footer

@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./Home.css"
 import Bigimg from './Bigimg';
-    
+
 
 const Home = () => {
     useEffect(() => {
@@ -13,8 +13,8 @@ const Home = () => {
     }, [])
     return (
         <>
-            <Bigimg/>
-            <Features/>
+            <Bigimg />
+            <Features />
             <div class="b-example-divider"></div>
             <div class="container px-4 mt-5" id="featured-3">
                 <h2 class="pb-2 border-bottom text-center border rounded bg-light ">Best <span class="text-primary">Ai</span> Tools</h2>
@@ -22,16 +22,16 @@ const Home = () => {
 
 
 
-            <div class="container col-xxl-8 px-4 py-2 tools">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-10 col-sm-8 col-lg-6" data-aos="zoom-in-up">
-                        <img src="13.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+            <div className="container col-xxl-8 px-4 py-2 tools">
+                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div className="col-10 col-sm-8 col-lg-6" data-aos="zoom-in-up">
+                        <img src="13.jpg" className="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
-                    <div class="col-lg-6" data-aos="zoom-in-up">
-                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Chat GPT</h1>
-                        <p class="lead">We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a type="button" href="https://chat.openai.com/auth/login" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2">Try It</a>
+                    <div className="col-lg-6" data-aos="zoom-in-up">
+                        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Chat GPT</h1>
+                        <p className="lead">We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+                        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a type="button" href="https://chat.openai.com/auth/login" target="_blank" className="btn btn-primary btn-lg px-4 me-md-2">Try It</a>
                             <button type="button" class="btn btn-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Features</button>
                         </div>
                     </div>
@@ -47,7 +47,10 @@ const Home = () => {
             <div class="b-example-divider"></div>
 
             <div class="container col-xxl-8 px-4 py-2 ">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5 " id='hello'>
+                    <div class="col-10 col-sm-8 col-lg-6 imgef" data-aos="zoom-in-up">
+                        <img src="12.png" class="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    </div>
                     <div class="col-lg-6" data-aos="zoom-in-up">
                         <h1 class="display-5 fw-bold text-body-emphasis  lh-1 mb-3">Midjourney</h1>
                         <p class="lead">Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.
@@ -56,9 +59,6 @@ const Home = () => {
                             <a type="button" href="https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2">Try It</a>
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Features</button>
                         </div>
-                    </div>
-                    <div class="col-10 col-sm-8 col-lg-6" data-aos="zoom-in-up">
-                        <img src="12.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -91,7 +91,10 @@ const Home = () => {
             <div class="b-example-divider"></div>
 
             <div class="container col-xxl-8 px-4 py-2">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5 " id='hello'>
+                    <div class="col-10 col-sm-8 col-lg-6 imgef" data-aos="zoom-in-up" >
+                        <img src="15.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    </div>
                     <div class="col-lg-6" data-aos="zoom-in-up">
                         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Synthesia</h1>
                         <p class="lead">Synthesia Allows You To Create Videos From Plain Text In Minutes. Try It Out For Free Now. 100+ Quality Avatars. 80+ Languages. Explore Resources. Browse Features. View Products. View Products. Features. Browse Features. Easy To Use. Explore Resources.</p>
@@ -100,9 +103,7 @@ const Home = () => {
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Features</button>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-8 col-lg-6" data-aos="zoom-in-up">
-                        <img src="15.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
-                    </div>
+
                 </div>
             </div>
 
@@ -134,7 +135,10 @@ const Home = () => {
             <div class="b-example-divider"></div>
 
             <div class="container col-xxl-8 px-4 py-2">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5" id='hello'>
+                    <div class="col-10 col-sm-8 col-lg-6 imgef" data-aos="zoom-in-up">
+                        <img src="17.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    </div>
                     <div class="col-lg-6" data-aos="zoom-in-up">
                         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Poised Ai</h1>
                         <p class="lead">Through the power of AI, Poised provides actionable communication guidance so you can influence and inspire. Private and secure feedback that only you can see. For Mac and Windows.</p>
@@ -143,9 +147,7 @@ const Home = () => {
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Features</button>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-8 col-lg-6" data-aos="zoom-in-up">
-                        <img src="17.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
-                    </div>
+
                 </div>
             </div>
 
@@ -165,7 +167,7 @@ const Home = () => {
                             <a type="button" href="https://www.sembly.ai/" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2">Try It</a>
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Features</button>
                         </div>
-                    </div>
+                    </div>  
                 </div>
                 <div className='png' >
                     <img id='images2' src="robot.png" alt="" />
@@ -174,10 +176,13 @@ const Home = () => {
 
             <hr />
 
-            <div class="b-example-divider"></div>
+            <div ClassName="b-example-divider"></div>
 
-            <div class="container col-xxl-8 px-4 py-2">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div ClassName="container col-xxl-8 px-4 py-2">
+                <div ClassName="row flex-lg-row align-items-center g-5 py-5" id='hello' >
+                    <div ClassName="col-10 col-sm-8 col-lg-6 imgef" data-aos="zoom-in-up">
+                        <img src="22.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                    </div>
                     <div class="col-lg-6" data-aos="zoom-in-up">
                         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Mixo AI</h1>
                         <p class="lead">Through the power of AI, Poised provides actionable communication guidance so you can influence and inspire. Private and secure feedback that only you can see. For Mac and Windows.</p>
@@ -186,9 +191,7 @@ const Home = () => {
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Features</button>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-8 col-lg-6" data-aos="zoom-in-up">
-                        <img src="22.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
-                    </div>
+
                 </div>
             </div>
 
