@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ai-worlds/static/css/main.f7455e58.css",
+    "main.js": "/Ai-worlds/static/js/main.2b0b3bf1.js",
+    "static/js/787.6766c676.chunk.js": "/Ai-worlds/static/js/787.6766c676.chunk.js",
+    "index.html": "/Ai-worlds/index.html",
+    "main.f7455e58.css.map": "/Ai-worlds/static/css/main.f7455e58.css.map",
+    "main.2b0b3bf1.js.map": "/Ai-worlds/static/js/main.2b0b3bf1.js.map",
+    "787.6766c676.chunk.js.map": "/Ai-worlds/static/js/787.6766c676.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7455e58.css",
+    "static/js/main.2b0b3bf1.js"
+  ]
+}
